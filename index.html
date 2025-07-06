@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Amazon 2.0</h1>
+    <div class="buttons">
+        <button onclick="showChoice('book')">Book</button>
+        <button onclick="showChoice('house')">Apartment</button>
+        <button onclick="showChoice('car')">Car</button>
+        </div>
+        
+        
+    <div id="bookPage" class="hidden">
+        <h2>BOOKSHELF</h2>
+        <div class="bookrow">
+            <div class="book" data-url="books/book1.html">Book 1</div>
+            <div class="book" data-url="books/book2.html">Book 2</div>
+            <div class="book" data-url="books/book3.html">Book 3</div>
+            <div class="book" data-url="books/book4.html">Book 4</div>
+            <div class="book" data-url="books/book5.html">Book 5</div>
+            <div class="book" data-url="books/book6.html">Book 6</div>
+            <div class="book" data-url="books/book7.html">Book 7</div>
+            <div class="book" data-url="books/book8.html">Book 8</div>
+        </div>
+        </div> 
+
+    <div id="housePage" class="hidden">
+        <h2>RENT</h2>
+        <div class="housesrow">
+        <div class="house" data-url="houses/house1.html">
+            House 1
+            <button class="moreBtn">More</button></div>
+        <div class="house" data-url="houses/house2.html">
+            House 2
+            <button class="moreBtn">More</button></div>
+        <div class="house" data-url="houses/house3.html">
+            House 3
+            <button class="moreBtn">More</button></div>
+        <div class="house" data-url="houses/house4.html">
+            House 4
+            <button class="moreBtn">More</button></div>
+        </div>
+        </div>
+    <div id="carPage" class="hidden">
+        <h2>CARS</h2>
+
+        <div class="car-block" data-url="cars/car1.html">
+            <button class="car-btn">Info</button>
+            <img src="images/car1.jpg" alt="Car 1" class="fullscreen-img">
+        </div>
+
+        <div class="car-block" data-url="cars/car2.html">
+            <button class="car-btn">Info</button>
+            <img src="images/car2.jpg" alt="Car 2" class="fullscreen-img">
+        </div>
+
+        <div class="car-block" data-url="cars/car3.html">
+            <button class="car-btn">Info</button>
+            <img src="images/car3.jpg" alt="Car 3" class="fullscreen-img">
+        </div>
+
+        <div class="car-block" data-url="cars/car4.html">
+            <button class="car-btn">Info</button>
+            <img src="images/car4.jpg" alt="Car 4" class="fullscreen-img">
+        </div>
+        </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

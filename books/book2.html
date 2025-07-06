@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book 2 Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Book 2 details</h1>
+    <p>Title: Book 2</p>
+    <p>Author: book 2 is also me</p>
+    <p>Details: book2 is better than 1</p>
+    <button id="buyB">Buy</button>
+    <button onclick="history.back()">Back</button>
+
+    <script>
+        const buyB = document.getElementById('buyB');
+        buyB.addEventListener("click", function(){
+            alert("bought!");
+        });
+    </script>
+</body>
+</html>
